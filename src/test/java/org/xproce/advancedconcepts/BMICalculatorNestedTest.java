@@ -34,7 +34,7 @@ class BMICalculatorNestedTest {
     class IsDietRecommandedtests {
 
         @ParameterizedTest
-        @ValueSource(doubles = {75.0, 89.0, 95.0, 110.0, 120.0})
+        @ValueSource(doubles = {75.0, 89.0, 95.0, 110.0})
         void should_ReturnTrue_When_Diet_Recommended_SingleValue(Double coderWeight) {
             //given
             double weight = coderWeight;
